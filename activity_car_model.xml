@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FBFF0A">
+
+    <Button
+        android:id="@+id/car1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skoda"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/car2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mercedes"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/car1Button"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/car3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ford"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/car2Button"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/car4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B.M.W"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/car3Button"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/car5Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ferrari"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/car4Button"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="#103BCF"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/car5Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="182dp"
+        android:layout_below="@+id/backButton"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/car_image" />
+
+</RelativeLayout>

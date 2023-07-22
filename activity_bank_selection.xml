@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FBFF0A">
+
+    <Button
+        android:id="@+id/bank1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="State Bank (Interest = 5.0%)"
+        android:background="#7DF307"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/bank2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Syndicate Bank (Interest = 7.5%)"
+        android:background="#559038"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/bank1Button"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/bank3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canara Bank (Interest = 8.5%)"
+        android:layout_below="@id/bank2Button"
+        android:background="#DC7220"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/bank4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Axis Bank (Interest = 10%)"
+        android:background="#A04211"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/bank3Button"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/bank5Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Induslnd Bank (Interest = 15%)"
+        android:background="#BB0B0B"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/bank4Button"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="#103BCF"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/bank5Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="207dp"
+        android:layout_height="173dp"
+        android:layout_below="@+id/backButton"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/bank" />
+
+</RelativeLayout>
